@@ -1,0 +1,126 @@
+[
+    {
+        "type": "directory",
+        "add_date": 1624807905,
+        "last_modified": 1632394783,
+        "title": "#0. 개인공부",
+        "children": [
+            {
+                "type": "link",
+                "add_date": 1620482872,
+                "title": "[인텔리J] 인텔리J로 GIT을 사용하자 2(새로운 브랜치 생성과 이동) :: 나무바다",
+                "url" : "https://namubada.net/246"
+            },{
+                "type": "link",
+                "add_date": 1622539754,
+                "title": "관계 데이터 구조 - 릴레이션 개념 : 네이버 블로그",
+                "url" : "https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=k97b1114&logNo=140152587557"
+            },{
+                "type": "link",
+                "add_date": 1623800120,
+                "title": "나의 온라인 컴퓨터공학 공부",
+                "url" : "https://coding-groot.tistory.com/93"
+            }
+            
+        ]
+    },
+    {
+        "type": "directory",
+        "add_date": 1624807905,
+        "last_modified": 1632394783,
+        "title": "#2021-2학기",
+        "children" : [
+            {
+                "type": "directory",
+                "add_date": 1630418896,
+                "last_modified":1630418896,
+                "title": "소프트웨어공학"
+            },
+            {
+                "type": "directory",
+                "add_date": 1630418896,
+                "last_modified":1630418896,
+                "title": "인공지능"
+            },{
+                "type": "directory",
+                "add_date": 1630418896,
+                "last_modified":1630418896,
+                "title": "컴퓨터구성"
+            }
+        ]
+    },
+    {
+        "type": "directory",
+        "add_date": 1624807905,
+        "last_modified": 1632394783,
+        "title": "#2021-1학기",
+        "children" : [
+            {
+                "type": "link",
+                "add_date": 1615863407,
+                "title": "컴퓨터의 눈, Open CV 란?",
+                "url": "https://onnons.tistory.com/79"
+            },
+            {
+                "type": "link",
+                "add_date": 1615897973,
+                "title": "2016년 8월호 기획특집 3 - 오픈소스SW의 이용 활성화를 위한 제언 : 네이버 블로그",
+                "url": "https://m.blog.naver.com/kcc_press/221577372902"
+            },{
+                "type": "link",
+                "add_date": 1616781348,
+                "title": "Dialogflow  |  Google Cloud",
+                "url": "https://cloud.google.com/dialogflow"
+            }
+        ]
+    },
+    {
+        "type": "directory",
+        "add_date": 1624807905,
+        "last_modified": 1632394783,
+        "title": "#디자인사이트",
+        "children" : [
+            {
+                "type": "link",
+                "add_date": 1600779057,
+                "title": "[홈페이지제작 매스티지] 유용한 아이콘 무료사이트 공유 : 네이버 블로그",
+                "url": "https://m.blog.naver.com/PostView.nhn?blogId=freewebclub2001&logNo=221137114986&proxyReferer=https:%2F%2Fwww.google.com%2F"
+            },
+            {
+                "type": "link",
+                "add_date": 1603943633,
+                "title": "iconmonstr - Page 6 of 77 - Free simple icons for your next project",
+                "url": ""
+            },{
+                "type": "link",
+                "add_date": 1603942758,
+                "title": "4,925,000+ free and premium vector icons in SVG, PNG, CSH and AI format.",
+                "url": "https://www.iconfinder.com/"
+            }
+        ]
+    },{
+        "type": "directory",
+        "add_date": 1624807905,
+        "last_modified": 1632394783,
+        "title": "#취미",
+        "children" : [
+            {
+                "type": "link",
+                "add_date": 1603930486,
+                "title": "학교소식",
+                "url": "https://www.dongguk.edu/mbs/kr/jsp/publicity/newsView.jsp?boardId=12&boardSeq=26724714&boardType=01&id=kr_090207000000&spage=1&command=view"
+            },
+            {
+                "type": "link",
+                "add_date": 1637579129,
+                "title": "fromis_9 (프로미스나인) 'Talk & Talk' Official MV",
+                "url": "https://www.youtube.com/watch?v=BjmmvBMXbSU"
+            },{
+                "type": "link",
+                "add_date": 1637579145,
+                "title": "네이버",
+                "url": "https://www.naver.com/"
+            }
+        ]
+    }
+]
