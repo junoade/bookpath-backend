@@ -106,4 +106,30 @@ public class MainController {
         }
         return new ResponseEntity<>(gson.toJson(jsonObject), HttpStatus.OK);
     }
+
+    /**
+     * 추천 목록 반환
+     */
+    @GetMapping("/getRecommend")
+    public ResponseEntity<String> getRecommend(){
+        log.info("getRecommend request...");
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        int size = bookmark_json.size();
+        long latestDate = 0L;
+        /* 가장 최근 하나 반환 */
+        JsonObject result = new JsonObject();
+        for (int i = 0; i < size; i++) {
+            JsonObject jsonObject = (JsonObject) bookmark_json.get(i);
+            JsonArray tempArray = (JsonArray) jsonObject.get("children");
+            for(int j = 0; j< tempArray.size(); j++){
+                JsonObject temp = (JsonObject) tempArray.get(j);
+                if (temp.get("type").getAsString().equals("link") && (temp.get("add_date").getAsLong() >= latestDate)){
+                    latestDate = jsonObject.get("add_date").getAsLong();
+                    result = temp;
+                }
+            }
+        }
+        log.info("getRecommend processing done!");
+        return new ResponseEntity<>(gson.toJson(result), HttpStatus.OK);
+    }
 }
